@@ -7,6 +7,13 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+.ex-img {
+
+    font-size: large;
+    font-style: italic;
+
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
@@ -100,7 +107,8 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: rgba(#232323
+);
 }
 
 .d-bloc button:hover {
@@ -133,7 +141,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: rgba(#232323);
 }
 
 .d-bloc .a-btn:hover,
@@ -651,7 +659,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #232323!important;
 }
 
 .container {
@@ -736,7 +744,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #232323!important;
 }
 
 .portfolio-thumb {
@@ -775,12 +783,12 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: rgb(243, 139, 108)!important;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #232323!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -822,7 +830,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -1032,7 +1040,9 @@ h4 {
     .bloc {
         padding-left: 0;
         padding-right: 0;
+    
     }
+
 }
 
 @media (max-width: 767px) {
